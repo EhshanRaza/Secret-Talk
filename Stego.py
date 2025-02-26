@@ -8,7 +8,7 @@ encrypt=int(input("Enter Your Choice."
                   "\n2 for Decryption.\n"))
 
 if encrypt==1:
-    img = cv2.imread("test.png") #  image path
+    img = cv2.imread("mypic.png") #  image path
 
     msg = input("Enter secret message:")
     password = input("Enter a passcode:")
